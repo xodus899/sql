@@ -1,5 +1,6 @@
 -- 02 DATE/TIME functions
 -- :memory:
+-- date now will get todays date.. to add, separate by comma and put in quotes '+1 day' etc. it is the same for time.
 
 SELECT DATETIME('now');
 SELECT DATE('now');

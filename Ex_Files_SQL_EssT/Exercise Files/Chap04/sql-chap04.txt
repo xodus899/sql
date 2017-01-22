@@ -6,7 +6,7 @@ SELECT Name, LENGTH(Name) AS Len FROM City ORDER BY Len DESC;
 
 -- 03 SUBSTR
 -- album.db
-
+-- counts from left to right including all characters;
 SELECT SUBSTR('this string', 6);
 SELECT released,
     SUBSTR(released, 1, 4) AS year,

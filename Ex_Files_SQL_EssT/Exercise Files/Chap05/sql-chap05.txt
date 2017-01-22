@@ -30,7 +30,8 @@ SELECT 17 / 5, 17 % 5;
 
 -- 04 ROUND()
 -- :memory:
-
+-- default round is to zero decimal places
+-- set it by: select round(2.5555, 2) === 2.56;
 SELECT 2.55555;
 SELECT ROUND(2.55555);
 SELECT ROUND(2.55555, 3);

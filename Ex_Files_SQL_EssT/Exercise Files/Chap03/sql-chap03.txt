@@ -1,4 +1,3 @@
-—ch3
 -- 02 JOIN
 -- test.db
 
